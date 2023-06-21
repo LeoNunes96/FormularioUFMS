@@ -1,0 +1,13 @@
+body {
+    font: 14px "Arial", "Verdana";
+    color: white;
+    background-color: black;
+}
+
+fieldset {
+    width: 20%;
+}
+
+input {
+    display: flex;
+}
