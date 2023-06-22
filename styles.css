@@ -1,13 +1,35 @@
 body {
-    font: 14px "Arial", "Verdana";
-    color: white;
-    background-color: black;
+    margin: 5% 30% 5% 30%;
 }
 
-fieldset {
-    width: 20%;
+header {
+    position: relative;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
 }
 
 input {
-    display: flex;
+    margin-top: 10px;
+    width:69%;
+}
+
+#bairro, #cidade, #cep, #telefone, #nascimento, #celular, #login, #senha {
+    width: 30%;
+}
+
+#menor {
+    width: 60px;
+}
+
+#sexo-m, #sexo-f, #lista {
+    width: 2%;
+}
+
+button {
+    margin-top: 10px;
 }
